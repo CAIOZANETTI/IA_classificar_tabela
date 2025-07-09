@@ -1,4 +1,6 @@
 import pandas as pd
+import re
+from collections import Counter
 
 def processar_features_categoricas(df: pd.DataFrame, colunas: list) -> pd.DataFrame:
     """
