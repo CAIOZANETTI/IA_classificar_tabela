@@ -1,3 +1,5 @@
+import pandas as pd
+
 def processar_features_categoricas(df: pd.DataFrame, colunas: list) -> pd.DataFrame:
     """
     Converte colunas categóricas em colunas numéricas (one-hot encoding).
